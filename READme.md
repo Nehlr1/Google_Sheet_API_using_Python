@@ -9,6 +9,9 @@ Clone this repository and install the requirements:
 ```
 git clone https://github.com/Nehlr1/Google_Sheet_API_using_Python.git
 cd Google_Sheet_API_using_Python
+py -m pip install --user virtualenv
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -43,6 +46,8 @@ You must set up a project in the Google Cloud Console and activate the Google Sh
 In the directory containing your Python script, save the downloaded JSON file as `credentials.json`. This file is what your Python script will use to authenticate itself.
 
 Since your `credentials.json` file includes important information, make sure you keep it private and don't share it with the public.
+
+Share the spreedsheet file with client_email from `credentials.json` using the share button of the google spreedsheet.
 
 ## Jupyter Notebook
 
