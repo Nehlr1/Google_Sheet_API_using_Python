@@ -15,6 +15,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Creating Credentials
 You must set up a project in the Google Cloud Console and activate the Google Sheets API before you can build the `credentials.json` file for the API. Take these actions:
 
 ### Step 1: Create a Project in Google Cloud Console
